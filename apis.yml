@@ -1,7 +1,15 @@
 aid: docplanner
 name: Docplanner
-description: Docplanner is a company surfaced as a portfolio company of point-nine and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Docplanner Group is a healthcare technology company that connects patients with doctors and
+  equips medical practices with SaaS tools to manage online bookings, calendars, patient
+  communication, reminders, payments, and online reputation. It operates a patient-facing
+  marketplace plus a practice-management platform across 13 countries under brands including
+  Doctoralia (Spain, Mexico, Brazil, Portugal, and Latin America), ZnanyLekarz (Poland),
+  MioDottore (Italy), Doktor Takvimi (Turkey), Jameda (Germany), and the TuoTempo
+  practice-management/booking platform. The group serves over 300,000 active doctors and
+  handles roughly 25 million appointment bookings each month. Docplanner is backed by
+  Point Nine among other investors.
 url: https://raw.githubusercontent.com/api-evangelist/docplanner/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +17,32 @@ x-backed-by:
 - point-nine
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.docplanner.com/images/og-docplanner.png
 tags:
 - Company
+- Healthcare
+- HealthTech
+- Appointments
+- Booking
+- Medical
+- SaaS
+- Marketplace
+- Doctors
+- Telemedicine
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +51,13 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.docplanner.com
+  url: https://www.docplanner.com
+- type: TrustCenter
+  url: https://www.trust.docplanner.com/
+- type: DomainSecurity
+  url: security/docplanner-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
